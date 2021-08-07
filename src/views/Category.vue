@@ -47,7 +47,7 @@
                       @click="selectProduct(thirdCategory)"
                     >
                       <img
-                        src="//s.weituibao.com/1583591077131/%E5%88%86%E7%B1%BB.png"
+                        src="https://s.weituibao.com/1583591077131/%E5%88%86%E7%B1%BB.png"
                         alt="none"
                       />
                       <p>{{ thirdCategory.categoryName }}</p>

@@ -18,7 +18,7 @@
         </div>
       </div>
     </van-skeleton>
-    <ul class="use-list">
+    <ul class="user-list">
       <li>
         <span>我的订单</span>
         <van-icon name="arrow" />
