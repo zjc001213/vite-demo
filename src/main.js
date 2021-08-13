@@ -3,7 +3,7 @@ import App from './App.vue'
 import router from './router/index.js'
 import './common/base.css'
 import { ActionBar, ActionBarIcon, ActionBarButton, Divider, Popup, Overlay, Loading, Dialog, ContactCard, Form, AddressEdit, AddressList, Field, CellGroup, Cell, SwipeCell, Icon, Stepper, Card, Checkbox, CheckboxGroup, Button, Swipe, SwipeItem, PullRefresh, List, Tab, Tabs, SubmitBar, Toast, Skeleton } from 'vant'
-
+import 'vant/lib/index.css'; // 全局引入样式
 //自适应分辨率
 // import 'lib-flexible'
 const app = createApp(App)

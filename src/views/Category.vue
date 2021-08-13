@@ -3,7 +3,7 @@
     <div class="category-search">
       <head-bar>
         <template v-slot:right>
-          <i class="nbfanhui" @click="back"></i>
+          <van-icon name="arrow-left" @click="back" />
         </template>
         <template v-slot:center>
           <div class="header-search">
@@ -103,17 +103,19 @@ export default {
       state.currentIndex = index;
     };
 
-    const selectProduct = function(product) {
-      console.log(product)
-      router.push({path: '/productList', query:{categoryId: product.categoryId}})
-
-    }
+    const selectProduct = function (product) {
+      console.log(product);
+      router.push({
+        path: "/productList",
+        query: { categoryId: product.categoryId },
+      });
+    };
 
     return {
       back,
       ...toRefs(state),
       selectMenu,
-      selectProduct
+      selectProduct,
     };
   },
 };

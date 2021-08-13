@@ -1,7 +1,7 @@
 <template>
     <div class="head-bar">
         <div class="right">
-            <slot name="right">right</slot>
+            <slot name="right"></slot>
         </div> 
         <div class="center">
             <slot name="center">center</slot>
